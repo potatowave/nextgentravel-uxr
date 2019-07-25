@@ -138,7 +138,7 @@
         let emailAddresses = $('.email-address').map(function(){
                 return $.trim($(this).text());
             }).get();
-        let mailString = `mailto:${emailAddresses.join(',')}?subject=${emailSubject}&body=${emailBody}`
+        let mailString = `mailto:${emailAddresses.join(';')}?subject=${emailSubject}&body=${emailBody}`
         $('#mailto-link').attr('href', mailString);
     </script>
 </body>
