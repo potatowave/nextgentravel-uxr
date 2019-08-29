@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Code for Canada and Public Services and Procurement Canada - NextGen Travel Program</title>
+    <title>Public Services and Procurement Canada - NextGen Travel Program</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -51,18 +51,18 @@
 
                     <br />
 
-                    <h1 class="display-4 text-center">Call for Participants</h1>
+                    <h1 class="display-4 text-center">Call for User Research Participants</h1>
                     <p class="lead">
-                        Code for Canada, in collaboration with the <a href="https://www.tpsgc-pwgsc.gc.ca/comm/">Public
-                            Services and Procurement Canada - NextGen Travel Program</a>, are looking employees in the federal government to participate in one-on-one interviews to discuss their travel experience in the federal public service. This will
-                        take approximately 1 hour.</p>
+                        Public Services and Procurement Canada - NextGen Travel Program, are looking for employees in the federal government to discuss their travel experience in the federal public service.</p>
                     <p class="lead">
-                        These studies will guide the strategic direction of the NextGen Travel Program.
+                        Continuing to build on our cross-country engagement tour with hundreds of public servants like yourself, we've partnered with Code for Canada to imagine what a user-centric business travel service could look like. 
+                    </p>
+                    <p class="lead">
+                        We are looking to gather more feedback, in the form of one-on-one interviews, surveys and other research. Interested? Please fill in the form below and we'll be in touch!
                     </p>
                     <hr class="my-4">
                     <p>
-                        <a href="https://codefor.ca/">Code for Canada</a> is a national nonprofit that connects government innovators with the tech and design community. Our programs enable governments to deliver better digital public services and empower
-                        communities to solve civic challenges using technology and design.
+                        Code for Canada is a national nonprofit that connects government innovators with the tech and design community. Our programs enable governments to deliver better digital public services and empower communities to solve civic challenges using technology and design.
                     </p>
                 </div>
 
@@ -73,16 +73,15 @@
                     </div>
                 </div>
                 <p>
-                    Public Services and Procurement Canada (PSPC) - NextGen Travel Program is committed to protecting the privacy rights of individuals.
-                    <br />
+                    Public Services and Procurement Canada (PSPC) - NextGen Travel Program is committed to protecting the privacy rights of individuals.                    <br />
                     <br />
                     <div class="text-center">
-                        <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <a class="btn btn-dark" data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapse">
                             Expand
                         </a>
                     </div>
                 </p>
-                <div class="collapse" id="collapseExample">
+                <div class="collapse" id="collapse">
                     <div class="card card-body" style="text-align: left;">
                         <p>Public Services and Procurement Canada (PSPC) - NextGen Travel Program is committed to protecting the privacy rights of individuals.</p>
                         <p>The definition of “personal information” is any information, in any form, about an identifiable individual. Refer to section 3 of the <a href="http://laws-lois.justice.gc.ca/eng/acts/P-21/">Privacy Act</a> for further details regarding
@@ -100,13 +99,19 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="text-center">Participate</h2>
+                        <h2 class="text-center">Research Participant Diversity & Inclusivity</h2>
+                        <p>
+                            Inclusivity and accessibility are very important to us. As part of our research, we aim to collect information on, and speak to, a pool of participants that is diverse and representative of the people who work within the federal public service. This information will be kept confidential and will only be used to ensure equitable participation.
+                        </p>
+                        <p>
+                            We appreciate your interest in helping to develop a user-centric travel service for the Government of Canada. To sign up, please contact us via the form that follows.                        </p>
                         <br />
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <form action="mailto:name@example.com?subject=NextGen UX Research" method="post" enctype="text/plain">
+                        <h2 class="text-center">Participate</h2>
+                        <form action="mailto:voyageprochainegeninfo-nextgentravelinfo@tpsgc-pwgsc.gc.ca?subject=NextGen UX Research" method="post" enctype="text/plain">
                             <div class="form-group">
                                 <label for="travelActivities">Which travel-related activities are part of your work
                                     responsibilities? (Check all that apply)</label>
@@ -135,10 +140,13 @@
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Other, please specify" name="responsibilities" id="other">
+                                    <input class="form-check-input" type="checkbox" value="Other, please specify" name="responsibilities" id="travelActivitiesOther">
                                     <label class="form-check-label" for="other">
                                         Other, please specify
                                     </label>
+                                </div>
+                                <div class="form-group">
+                                    <input id="hiddentravelActivitiesOther" type="text" name="travelActivitiesOther" class="form-control" aria-describedby="travelActivitiesOther" placeholder="Which other travel-related activities are part of your work responsibilities?">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -150,10 +158,13 @@
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="location" value="other" id="assist">
+                                    <input class="form-check-input" type="checkbox" name="location" value="other" id="locationOtherCheckbox">
                                     <label class="form-check-label" for="assist">
                                         Other, please specify
                                     </label>
+                                </div>
+                                <div class="form-group">
+                                    <input id="hiddenPrimaryWorkLocationOther" type="text" name="locationOther" class="form-control" aria-describedby="PrimaryWorkLocationOther" placeholder="Where are you located?">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -225,8 +236,6 @@
                         <br />
                         <br />
                     </div>
-
-
                 </div>
             </div>
 
@@ -244,7 +253,34 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
+    <script>
+    $(function() {
+        let travelActivitiesCheckbox = $('#travelActivitiesOther');
+        let travelActivitiesHidden = $("#hiddentravelActivitiesOther");
+        let locationCheckbox = $('#locationOtherCheckbox');
+        let locationHidden = $("#hiddenPrimaryWorkLocationOther");
+        travelActivitiesHidden.hide();
+        travelActivitiesCheckbox.change(function() {
+            if (travelActivitiesCheckbox.is(':checked')) {
+                travelActivitiesHidden.show();
+            } else {
+                travelActivitiesHidden.hide();
+                travelActivitiesHidden.val("");
+            }
+        });
+        locationHidden.hide();
+        locationCheckbox.change(function() {
+            if (locationCheckbox.is(':checked')) {
+                locationHidden.show();
+            } else {
+                locationHidden.hide();
+                locationHidden.val("");
+            }
+        });
 
+
+    });
+    </script>
 </body>
 
 </html>
