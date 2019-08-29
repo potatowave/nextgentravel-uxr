@@ -42,24 +42,27 @@
     <!-- Page Content -->
     <div class="container">
         <div class="row justify-content-md-center">
-            <div class="col-md-10 text-center">
+            <div class="col-md-10">
                 <div class="jumbotron">
-                    <div class="">
+                    <div class="text-center">
                         <img src="./images/cfc-web-logo.png" alt="Code for Canada Logo" class="img-thumbnail" width=258>
                         <img src="./images/nextgen-web-logo-en.png" alt="Public Services and Procurement Canada - NextGen Travel Program Logo" class="img-thumbnail" width=365>
                     </div>
 
                     <br />
 
-                    <h1 class="display-4">Call for Participants</h1>
+                    <h1 class="display-4 text-center">Call for Participants</h1>
                     <p class="lead">
-                        Code for Canada, in collaboration with the <a href="https://www.tpsgc-pwgsc.gc.ca/comm/">Public Services and Procurement Canada - NextGen Travel Program</a>, are looking employees in the federal government to participate in one-on-one interviews to discuss their travel experience in the federal public service. This will take approximately 1 hour.</p>
+                        Code for Canada, in collaboration with the <a href="https://www.tpsgc-pwgsc.gc.ca/comm/">Public
+                            Services and Procurement Canada - NextGen Travel Program</a>, are looking employees in the federal government to participate in one-on-one interviews to discuss their travel experience in the federal public service. This will
+                        take approximately 1 hour.</p>
                     <p class="lead">
                         These studies will guide the strategic direction of the NextGen Travel Program.
                     </p>
                     <hr class="my-4">
                     <p>
-                        <a href="https://codefor.ca/">Code for Canada</a> is a national nonprofit that connects government innovators with the tech and design community. Our programs enable governments to deliver better digital public services and empower communities to solve civic challenges using technology and design.
+                        <a href="https://codefor.ca/">Code for Canada</a> is a national nonprofit that connects government innovators with the tech and design community. Our programs enable governments to deliver better digital public services and empower
+                        communities to solve civic challenges using technology and design.
                     </p>
                 </div>
 
@@ -73,17 +76,22 @@
                     Public Services and Procurement Canada (PSPC) - NextGen Travel Program is committed to protecting the privacy rights of individuals.
                     <br />
                     <br />
-                    <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        Expand
-                    </a>
+                    <div class="text-center">
+                        <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Expand
+                        </a>
+                    </div>
                 </p>
                 <div class="collapse" id="collapseExample">
                     <div class="card card-body" style="text-align: left;">
                         <p>Public Services and Procurement Canada (PSPC) - NextGen Travel Program is committed to protecting the privacy rights of individuals.</p>
-                        <p>The definition of “personal information” is any information, in any form, about an identifiable individual. Refer to section 3 of the <a href="http://laws-lois.justice.gc.ca/eng/acts/P-21/">Privacy Act</a> for further details regarding personal information.</p>
-                        <p>The personal information you provide will be used by Public Services and Procurement Canada for research and development purposes; and is collected under the authority of section 11 of Public Service Employment Act. Provision of your information is voluntary, and will not be used to make any administrative decisions about you.</p>
-                        <p>Personal information is collected and used as described in the Treasury Board Secretariat’s Standard Personal Information Bank <a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu938">Outreach Activities (PSU 938)</a></p>
-                        <p>Individuals have the right to file a complaint with the <a href="https://www.priv.gc.ca/index_e.asp">Privacy Commissioner of Canada</a> regarding the department’s handling of their personal information.</p>
+                        <p>The definition of “personal information” is any information, in any form, about an identifiable individual. Refer to section 3 of the <a href="http://laws-lois.justice.gc.ca/eng/acts/P-21/">Privacy Act</a> for further details regarding
+                            personal information.</p>
+                        <p>The personal information you provide will be used by Public Services and Procurement Canada for research and development purposes; and is collected under the authority of section 11 of Public Service Employment Act. Provision of
+                            your information is voluntary, and will not be used to make any administrative decisions about you.</p>
+                        <p>Personal information is collected and used as described in the Treasury Board Secretariat's Standard Personal Information Bank <a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu938">Outreach
+                                Activities (PSU 938)</a></p>
+                        <p>Individuals have the right to file a complaint with the <a href="https://www.priv.gc.ca/index_e.asp">Privacy Commissioner of Canada</a> regarding the department's handling of their personal information.</p>
                     </div>
                 </div>
 
@@ -98,36 +106,144 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Are you a Public Servant?</h5>
-                                <p class="card-text">Please click if you have undergone travel as a Public Servant.</p>
-                                <a href="./volunteer-mgr.html" class="btn btn-info">I want to participate</a>
+                        <form action="mailto:name@example.com?subject=NextGen UX Research" method="post" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="travelActivities">Which travel-related activities are part of your work
+                                    responsibilities? (Check all that apply)</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="I do or have traveled for work" name="responsibilities" id="traveledForWork">
+                                    <label class="form-check-label" for="traveledForWork">
+                                        I do or have traveled for work
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="I assist others with booking or expenses" name="responsibilities" id="assist">
+                                    <label class="form-check-label" for="assist">
+                                        I assist others with booking or expenses
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="I approve travel for others" name="responsibilities" id="approveforothers">
+                                    <label class="form-check-label" for="approveforothers">
+                                        I approve travel for others
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="I process or review financials related to travel" name="responsibilities" id="processOrReviews">
+                                    <label class="form-check-label" for="processOrReviews">
+                                        I process or review financials related to travel
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="Other, please specify" name="responsibilities" id="other">
+                                    <label class="form-check-label" for="other">
+                                        Other, please specify
+                                    </label>
+                                </div>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="travelActivities">Primary work location</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="location" value="National Capital Region" id="nationalCapitalRegion">
+                                    <label class="form-check-label" for="nationalCapitalRegion">
+                                        National Capital Region
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="location" value="other" id="assist">
+                                    <label class="form-check-label" for="assist">
+                                        Other, please specify
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="travelActivities">How would you like to participate in our studies?</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="I'm willing to travel locally to meet you" name="participate" id="traveledForWork">
+                                    <label class="form-check-label" for="traveledForWork">
+                                        I'm willing to travel locally to meet you
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="I'm willing to use my computer and/or mobile phone" name="participate" id="assist">
+                                    <label class="form-check-label" for="assist">
+                                        I'm willing to use my computer and/or mobile phone
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="I'm willing to have a NextGen Travel researcher come visit me at work" name="participate" id="approveforothers">
+                                    <label class="form-check-label" for="approveforothers">
+                                        I'm willing to have a NextGen Travel researcher come visit me at work
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="I'm willing to complete online activities or surveys" name="participate" id="processOrReviews">
+                                    <label class="form-check-label" for="processOrReviews">
+                                        I'm willing to complete online activities or surveys
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="travelActivities">In which of these languages would you prefer providing
+                                    feedback?</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="language" value="english" id="nationalCapitalRegion">
+                                    <label class="form-check-label" for="nationalCapitalRegion">
+                                        English
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="language" value="french" id="assist">
+                                    <label class="form-check-label" for="assist">
+                                        French
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Current Department</label>
+                                <input type="text" name="currentDepartment" class="form-control" aria-describedby="emailHelp" placeholder="Enter your current department">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Current title / position</label>
+                                <input type="text" name="currentTitle" class="form-control" aria-describedby="emailHelp" placeholder="Enter your title / position">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">First Name</label>
+                                <input type="text" name="firstName" class="form-control" aria-describedby="emailHelp" placeholder="Enter your first name">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Last Name</label>
+                                <input type="text" name="lastName" class="form-control" aria-describedby="emailHelp" placeholder="Enter your last name">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Email address</label>
+                                <input type="email" name="emailAddress" class="form-control" aria-describedby="emailHelp" placeholder="Enter your email address">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                        <br />
+                        <br />
                     </div>
-                    <!-- <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Are you a supervisor or team leader who hopes to become a manager?</h5>
-                                <p class="card-text">Please click if you are considering a management position / on the path to management.</p>
-                                <a href="./volunteer-mgr.html" class="btn btn-info">I want to participate</a>
-                            </div>
-                        </div>
-                    </div> -->
+
+
                 </div>
-
-                <br />
-                <br />
-
             </div>
+
+            <br />
+            <br />
+
         </div>
+    </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
 
 </body>
 
